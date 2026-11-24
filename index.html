@@ -1,3 +1,120 @@
-   <!doctype html>
-   <meta http-equiv="refresh" content="0; url=/main/projects.html">
-   <a href="/main/projects.html">maxencelatrouite.github.io</a>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maxence Latrouite · Robotics and control, ETH Zürich</title>
+  <meta name="description" content="Maxence Latrouite, mechanical engineering student at ETH Zürich specializing in robotics and control. Projects in state estimation, control, robot learning and experimental mechanics.">
+  <meta property="og:title" content="Maxence Latrouite">
+  <meta property="og:description" content="Mechanical engineering student at ETH Zürich, specializing in robotics and control.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://maxencelatrouite.github.io/">
+  <link rel="canonical" href="https://maxencelatrouite.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to projects</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#top">Maxence Latrouite</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#background">Background</a>
+        <a href="#contact">Contact</a>
+        <a href="#" data-cv-link hidden>CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="name">
+      <p class="eyebrow"><span class="square" aria-hidden="true"></span>Mechanical engineering · Robotics and control · ETH Zürich</p>
+      <h1 id="name">Maxence<br>Latrouite</h1>
+      <div class="split">
+        <p class="label">About</p>
+        <div class="about">
+          <p class="lead">Master's student at ETH Zürich, specializing in robotics and control. I work on perception, state estimation and control, and I like taking a system from simulation to real hardware.</p>
+          <p>I grew up on Réunion Island and did my bachelor's at EPFL, with hands-on prototyping at SPOT, the student project space. At ETH I'm on ARIS NAUTILUS, a student team building an autonomous underwater glider.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work wrap" aria-labelledby="work-title">
+      <div class="section-head">
+        <h2 id="work-title">Selected work <span class="count" id="project-count"></span></h2>
+        <div class="filters" role="group" aria-label="Filter projects" id="filters"></div>
+      </div>
+      <ol class="project-list" id="project-list"></ol>
+      <noscript><p class="noscript">The project list needs JavaScript. You can also find my projects on my CV or on <a href="https://www.linkedin.com/in/maxence-latrouite">LinkedIn</a>.</p></noscript>
+      <button type="button" class="show-all" id="show-all" hidden></button>
+    </section>
+
+    <section id="background" class="background wrap" aria-labelledby="background-title">
+      <h2 id="background-title">Background</h2>
+      <div class="bg-grid">
+        <div class="bg-col">
+          <h3>Education</h3>
+          <dl class="timeline">
+            <div>
+              <dt>2025 – 2028</dt>
+              <dd><strong>ETH Zürich</strong><br>MSc Mechanical Engineering, Robotics and Control</dd>
+            </div>
+            <div>
+              <dt>2021 – 2025</dt>
+              <dd><strong>EPFL</strong><br>BSc Mechanical Engineering</dd>
+            </div>
+            <div>
+              <dt>2018 – 2021</dt>
+              <dd><strong>Lycée Français International d'Alicante</strong><br>French Baccalauréat (17.55/20) and Spanish Selectividad (9.038/10)</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="bg-col">
+          <h3>Skills</h3>
+          <dl class="skills">
+            <div><dt>Programming</dt><dd>Python, C/C++, embedded C (MSP432, STM32, Arduino), MATLAB/Simulink, Git</dd></div>
+            <div><dt>Control</dt><dd>MPC, LQR, PID, Lagrangian modelling, state estimation</dd></div>
+            <div><dt>Robotics</dt><dd>ROS / ROS 2, Gazebo, Isaac Sim / Isaac Lab, Linux, Docker</dd></div>
+            <div><dt>Hardware</dt><dd>3D printing, laser cutting, soldering, sensor integration, DC motor control</dd></div>
+            <div><dt>CAD and tools</dt><dd>Onshape, Fusion 360, CATIA, COMSOL, LabVIEW</dd></div>
+          </dl>
+        </div>
+        <div class="bg-col">
+          <h3>Languages</h3>
+          <ul class="plain">
+            <li>French, native</li>
+            <li>English, C1</li>
+            <li>Spanish, B2 (DELE)</li>
+          </ul>
+          <h3 class="spaced">Outside engineering</h3>
+          <ul class="plain">
+            <li>Swimming, at regional competition level</li>
+            <li>Sailing and freediving</li>
+            <li>Hiking and cycling in the Alps</li>
+            <li>Space exploration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact wrap" aria-labelledby="contact-title">
+      <p class="label" id="contact-title">Contact</p>
+      <a class="big-mail" href="mailto:maxencelatrouite@gmail.com">maxencelatrouite@gmail.com<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/maxence-latrouite">LinkedIn</a>
+        <a href="https://github.com/maxencelatrouite">GitHub</a>
+        <a href="#" data-cv-link hidden>CV (PDF)</a>
+        <span class="copy">© <span id="year">2026</span> Maxence Latrouite</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
